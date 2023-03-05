@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <div>
+        <h2>Basic Form</h2>
+
+        <form>
+            <label for="">Name</label>
+            <input type="text" name="name" id="name">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>The action attribute</h2>
+
+        <form action="https://www.google.com" target="_blank">
+            <input type="text">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>The name attribute</h2>
+
+        <form action="https://www.google.com/search" target="_blank">
+            <input type="text" name="q">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>The placeholder attribute</h2>
+
+        <form action="">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Proper labelling form controls</h2>
+
+        <form action="">
+            <label for="name-proper">Name</label>
+            <input type="text" name="name-proper" id="name-proper" placeholder="Name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Required attribute</h2>
+
+        <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>diffirent types of input</h2>
+
+        <form action="">
+            <label for="">Text</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="email">
+            <label for="">Password</label>
+            <input type="password">
+            <label for="">Number</label>
+            <input type="number">
+            <label for="">Date</label>
+            <input type="date">
+            <label for="">Time</label>
+            <input type="time">
+            <label for="">Color</label>
+            <input type="color">
+            <label for="">Url</label>
+            <input type="url">
+            <label for="">Search</label>
+            <input type="search">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Range input</h2>
+
+        <form action="">
+            <label for="">Range</label>
+            <input type="range" min="0" max="10" step="2" name="level">
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Checkbox input</h2>
+
+        <form action="">
+            <label for="checkbox">Subscribe</label>
+            <input type="checkbox" name="subscribe" id="checkbox">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Radio input</h2>
+
+        <form action="">
+            <label for="call-me">Call Me</label>
+            <input type="radio" id="call-me" name="contact" value="phone">
+            <label for="email-me">Email Me</label>
+            <input type="radio" id="email-me" name="contact" value="email">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <h2>Other form controls</h2>
+    <div>
+        <h3>Textarea</h3>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <h3>Select element</h3>
+
+        <form action="">
+            <label for="shirtsize">Select your size: </label>
+            <select name="shirtsize" id="shirtsize">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
