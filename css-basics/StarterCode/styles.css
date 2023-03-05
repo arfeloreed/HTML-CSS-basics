@@ -1,7 +1,17 @@
+body {
+    background-color: rgb(218, 249, 248);
+}
+
 p {
     color: seagreen;
+    background-color: blanchedalmond;
 }
 
 a {
     color: red;
+    background-color: lightblue;
+}
+
+li {
+    background-color: antiquewhite;
 }
