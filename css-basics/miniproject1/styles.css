@@ -1,0 +1,22 @@
+main {
+    font-family: 'Space Mono', monospace;
+    margin: 100px 500px 0 50px;
+    background-color: antiquewhite;
+}
+
+h1 {
+    width: 90%;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+span {
+    text-shadow: 0 5px 1px red, 0 10px 1px yellow, 0 -5px 1px cyan,
+        0 -10px 1px blue;
+}
+
+p {
+    width: 90%;
+    font-size: 0.8rem;
+    line-height: 1;
+}
