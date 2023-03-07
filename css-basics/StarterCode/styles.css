@@ -44,6 +44,56 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-    text-shadow: 5px 5px 2px pink, 10px 10px 2px blue;
+/* h1 {
+    text-transform: uppercase;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 10px;
+    text-decoration: line-through cyan wavy 10px;
+} */
+
+/* a {
+    text-decoration: none;
+}
+
+#reviews {
+    text-decoration: underline blue;
+}
+
+#feature {
+    color: darkgoldenrod;
+    font-size: 1.3rem;
+} */
+
+/* .tag {
+    text-decoration: none;
+    background-color: aquamarine;
+    color: red;
+} */
+
+#cast {
+    /* list-style-type: georgian; */
+    /* list-style-type: "-"; */
+    /* list-style-type: none; */
+    list-style-type: "\1f44d";
+}
+
+/* a {
+    color: olivedrab;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orangered;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: zoom-in;
+} */
+
+.par-1 {
+    font: bold 1.7rem serif;
 }
