@@ -32,15 +32,39 @@
 /*     border: 5px solid blue; */
 /* } */
 
-#container {
-    width: 800px;
-    height: 500px;
-    border: 2px solid red;
-}
+/* #container { */
+/*     width: 800px; */
+/*     height: 500px; */
+/*     border: 2px solid red; */
+/* } */
+/**/
+/* .box { */
+/*     width: 150px; */
+/*     border: 2px solid blue; */
+/*     margin: 0 auto; */
+/*     text-align: center; */
+/* } */
 
-.box {
-    width: 150px;
-    border: 2px solid blue;
+/* .box2 { */
+/*     width: 80%; */
+/*     min-width: 300px; */
+/*     max-width: 500px; */
+/*     height: 200px; */
+/*     background-color: mediumspringgreen; */
+/*     border-radius: 50%; */
+/* } */
+
+span {
+    display: block;
+    width: 400px;
+    background-color: red;
+}
+/* give the box class a shadow property */
+.box2 {
     margin: 0 auto;
-    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    box-shadow: 10px 10px 5px #888888;
+    overflow: scroll;
 }
