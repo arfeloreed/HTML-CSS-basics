@@ -1,0 +1,8 @@
+.container {
+    background-image: url("images/people.jpg");
+    height: 500px;
+    width: 900px;
+    background-size: cover;
+    border: 2px solid blue;
+    background-position: center;
+}
