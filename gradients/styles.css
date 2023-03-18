@@ -1,0 +1,44 @@
+.box1 {
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    /* background: linear-gradient(90deg, red, yellow, green); */
+    /* background: linear-gradient(#e66465, #9198e5); */
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    /* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+    /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), */
+    /*             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%), */
+    /*             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+    background: #ff7e5f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box2 {
+    border: 2px solid black;
+    width: 400px;
+    height: 700px;
+    /* background: radial-gradient(cyan, yellow); */
+    background: radial-gradient(circle, #fff, #000);
+    /* background: radial-gradient(circle at 10% 20%, #fff, #000); */
+    /* background: radial-gradient(circle at center, #fff, #000); */
+    /* background: radial-gradient(circle at bottom, #fff, #000); */
+    background: radial-gradient(circle at left bottom, #fff, #000);
+}
+.box3 {
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background: conic-gradient(red, yellow, green);
+}
+.box4 {
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #ccc,
+        #ccc 10px,
+        #fff 10px,
+        #fff 20px
+    );
+}
