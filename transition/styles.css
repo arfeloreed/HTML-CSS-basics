@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    margin: 20px 0 0 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #000;
+    /* transition: background-color 5s; */
+
+    /* handling multiple transitions */
+    /* transition: background-color 5s, color 5s; */
+
+    /* timing-function */
+    /* transition: transform 5s ease-out; */
+
+    /* transition-delay */
+    transition: background-color 3s ease-out, color 2s ease-in 3s;
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+/* .btn:hover { */
+/*     transform: translateX(100px); */
+/* } */

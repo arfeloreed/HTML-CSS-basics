@@ -1,0 +1,24 @@
+h1 {
+    display: inline-block;
+    border:  1px solid black;
+    transform: rotate(90deg);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    display: inline-block;
+}
+
+.first {
+    background-color: fuchsia;
+    /* transform: translateX(400px); */
+    /* transform: translateY(400px); */
+    transform: translate(400px, 400px);
+}
+
+.second {
+    /* transform: scale(2, 4); */
+    transform: scaleY(4);
+}
