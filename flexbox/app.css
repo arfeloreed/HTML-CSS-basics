@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 6rem;
+}
+
+.container {
+  border: 4px solid black;
+  width: 1200px;
+  height: 1000px;
+  margin: 40px auto;
+  display: flex;
+
+  /* configuring the main axis */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  flex-direction: row; /* default */
+
+  /* flex-wrap moves in the cross axis*/
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */ /* default */
+  /* flex-wrap: wrap-reverse; */
+
+   /* justify-content moves along the main axis */
+  /* justify-content: flex-start; */ /* default */
+  /* justify-content: flex-end; */
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+
+  /* align-items moves along the cross axis */
+  /* align-items: stretch; */ /* default */
+  align-items: center;
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: baseline; */
+
+  /* align-content must be used only when flex-wrap is set to wrap or wrap-reverse. It moves along the cross axis. */
+  /* align-content: start; */
+  /* align-content: center; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+}
+
+.box {
+  width: 500px;
+  height: 150px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.special {
+    /* align-self is applicable to an item inside the container and moves along the cross axis */
+    align-self: flex-end;
+}

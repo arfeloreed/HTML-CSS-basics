@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    height: 700px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    background-color: olivedrab;
+    flex-grow: 1;
+    max-width: 200px;
+}
+
+.content {
+    background-color: lightpink;
+    margin: 0;
+    width: 600px;
+    flex-grow: 2;
+}
