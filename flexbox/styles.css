@@ -13,18 +13,28 @@ h1 {
     height: 700px;
     border: 2px solid black;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-direction: column;
 }
 
-.sidebar {
-    background-color: olivedrab;
-    flex-grow: 1;
-    max-width: 200px;
-}
+/* .sidebar { */
+/*     background-color: olivedrab; */
+/*     width: 1000px; */
+    /* max-width: 200px; */
+    /* flex-grow: 1; */
+
+    /* flex-shrink: 3; */
+    /* min-width: 100px; */
+/* } */
 
 .content {
     background-color: lightpink;
     margin: 0;
-    width: 600px;
-    flex-grow: 2;
+    /* width: 1000px; */
+    /* flex-grow: 2; */
+
+    /* flex-shrink: 1; */
+
+    flex-basis: 500px;
 }
