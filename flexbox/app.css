@@ -51,6 +51,6 @@ h1 {
 }
 
 .special {
-    /* align-self is applicable to an item inside the container and moves along the cross axis */
+    /* align-self is applicable to an item inside the flex container and moves along the cross axis */
     align-self: flex-end;
 }
