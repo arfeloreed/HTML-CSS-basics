@@ -41,12 +41,41 @@
 /*     } */
 /* } */
 
-body {
-    background-color: green;
+/* body { */
+/*     background-color: green; */
+/* } */
+/**/
+/* @media (max-width: 700px) or (min-width: 1400px) { */
+/*     body { */
+/*         background-color: blue; */
+/*     } */
+/* } */
+
+ /* Exercise */
+h1::after {
+    content: " screen size above 1000px";
 }
 
-@media (max-width: 700px) or (min-width: 1400px) {
-    body {
-        background-color: blue;
+h2 {
+    font-size: 7rem;
+}
+
+@media only screen and (max-width: 800px) {
+    h1::after {
+    content: " screen size below 800px";
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    h1::after {
+    content: " screen size between 801px and 1000px";
+    }
+
+    h2 {
+        font-size: 5rem;
     }
 }
