@@ -1,0 +1,37 @@
+body {
+    background-color: green;
+}
+
+body::before {
+     content: "Large screen desktop size";
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: lightpink;
+    }
+
+    body::before {
+        content: "Mobile size";
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    body::before {
+        content: "Tablet size";
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: yellow;
+    }
+
+    body::before {
+        content: "Small screen desktop size";
+    }
+}
