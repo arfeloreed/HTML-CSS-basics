@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: lightpink;
+}
+
+.navbar {
+    background-color: rgb(93, 29, 185);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.navbar .links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .links a {
+    color: white;
+    margin: 0 16px;
+}
+
+ @media only screen and (max-width: 768px) {
+     .navbar .links a {
+        margin: 0 8px;
+     }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column
+    }
+    .navbar .links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}

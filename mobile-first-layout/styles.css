@@ -1,0 +1,45 @@
+header, footer, article, aside {
+    border: 2px solid #fff;
+}
+
+header, footer {
+    background-color: purple;
+    width: 100%;
+    height: 200px;
+}
+
+article {
+    background-color: olive;
+    width: 100%;
+    height: 400px;
+}
+
+aside {
+    background-color: orange;
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+
+    article {
+        flex: 1 1 70%;
+    }
+
+    aside {
+        flex: 1 1 30%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    article {
+        flex: 1 1 80%;
+    }
+
+    aside {
+        flex: 1 1 20%;
+    }
+}
