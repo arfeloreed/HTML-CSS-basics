@@ -93,3 +93,28 @@ h1 {
 /*         background-color: pink; */
 /*     } */
 /* } */
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    animation: box2 3s ease-in-out 4s;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    animation-fill-mode: both;
+}
+
+@keyframes box2 {
+    0% {
+        transform: translateX(0);
+        background-color: #AB47BC;
+    }
+    100% {
+        transform: translateX(500px);
+        background-color: #FFA000;
+    }
+}
