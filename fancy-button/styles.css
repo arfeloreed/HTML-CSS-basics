@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 1.5rem;
+    position: relative;
+    padding-left: 75px;
+}
+
+.toggle {
+    opacity: 0;
+}
+
+.toggle + label::before {
+    content: "";
+    width: 4.5rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    background-color: #CDCFD1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.2s ease;
+}
+.toggle:checked + label::before {
+    background-color: #35D173;
+}
+
+.toggle + label::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    transition: transform 0.2s ease;
+}
+.toggle:checked + label::after {
+    transform: translateX(2rem);
+}
